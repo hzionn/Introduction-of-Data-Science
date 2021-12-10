@@ -1,0 +1,133 @@
+.navbar_main_page {
+  background-color: rgba(44, 205, 245, 0.178);
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.navbar_main_page li a {
+  float: left;
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 30px 30px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar_main_page li a:hover {
+  font-size: 20px;
+  color: royalblue;
+  border-bottom: 3px solid royalblue;
+}
+
+.wrapper {
+  padding: 67px;
+}
+
+.title {
+  text-align: center;
+  word-spacing: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 60;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left screen side */
+.left {
+  left: 0;
+  background-color: honeydew;
+  padding: 30px 0px;
+}
+
+/* Control the right screen side */
+.right {
+  right: 0;
+  background-color: none;
+  margin-right: -50px;
+}
+
+.date_update.p {
+  background-color: none;
+  font-size: 30px;
+}
+
+.left_1 {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  height: 100px;
+}
+
+.left_1 li a {
+  display: flex;
+  color: navy;
+  text-align: center;
+  padding: 30px 60px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.left_1 li img {
+  display: flex;
+}
+
+.left_1 li a:hover,
+.left_1 li a:focus,
+.left_1 li a:active {
+  transform: translateY(-7px);
+}
+
+img.profile_pic {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+p.facebook_acc {
+  color: rgb(7, 86, 175);
+  font-size: 60px;
+  display: flex;
+  text-align: center;
+}
+
+p.github_acc {
+  color: cadetblue;
+  display: flex;
+  font-size: 45px;
+  text-align: center;
+}
+
+.zionn_content_right {
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.list_of_me {
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 20%;
+}
